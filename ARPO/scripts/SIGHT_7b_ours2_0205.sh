@@ -54,8 +54,8 @@ MAX_PROMPT_LENGTH=1536              # Maximum prompt length
 MAX_RESPONSE_LENGTH=4096            # Maximum response length
 
 # Data file paths
-TRAIN_FILES="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-sh02/hadoop-aipnlp/LA/yangjinluan/project/zwl_project/SIGHT_ablation/ARPO/rl_datasets/IGD/train.parquet"  # TODO
-VALID_FILES="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-sh02/hadoop-aipnlp/LA/yangjinluan/project/zwl_project/SIGHT_ablation/ARPO/rl_datasets/IGD/test.parquet"  # TODO
+TRAIN_FILES="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-sh02/hadoop-aipnlp/LA/yangjinluan/project/zwl_project/SIGHT_ablation/ARPO/rl_datasets/IGD/train.parquet"  # 
+VALID_FILES="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-sh02/hadoop-aipnlp/LA/yangjinluan/project/zwl_project/SIGHT_ablation/ARPO/rl_datasets/IGD/test.parquet"  # 
 
 # ============================ Model Configuration ============================
 # Actor model path

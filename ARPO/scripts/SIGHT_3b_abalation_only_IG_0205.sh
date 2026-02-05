@@ -54,8 +54,8 @@ MAX_PROMPT_LENGTH=1536              # Maximum prompt length
 MAX_RESPONSE_LENGTH=4096            # Maximum response length
 
 # Data file paths
-TRAIN_FILES="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-sh02/hadoop-aipnlp/LA/yangjinluan/project/zwl_project/SIGHT_ablation/ARPO/rl_datasets/IGD/train.parquet"  # TODO
-VALID_FILES="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-sh02/hadoop-aipnlp/LA/yangjinluan/project/zwl_project/SIGHT_ablation/ARPO/rl_datasets/IGD/test.parquet"  # TODO
+TRAIN_FILES="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-sh02/hadoop-aipnlp/LA/yangjinluan/project/zwl_project/SIGHT_ablation/ARPO/rl_datasets/IGD/train.parquet"  # 
+VALID_FILES="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-sh02/hadoop-aipnlp/LA/yangjinluan/project/zwl_project/SIGHT_ablation/ARPO/rl_datasets/IGD/test.parquet"  # 
 
 # ============================ Model Configuration ============================
 # Actor model path
@@ -82,7 +82,7 @@ Entropy_weight=0.2
 REWARD_MANAGER="naive"              # Reward manager type
 
 # deep_research_0104updated_IGD 
-CUSTOM_REWARD_FUNCTION_PATH="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-sh02/hadoop-aipnlp/LA/yangjinluan/project/zwl_project/SIGHT_ablation/ARPO/verl_arpo_entropy/verl/utils/reward_score/deep_research_0104updated_IGD.py" # TODO
+CUSTOM_REWARD_FUNCTION_PATH="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-nlp-sh02/hadoop-aipnlp/LA/yangjinluan/project/zwl_project/SIGHT_ablation/ARPO/verl_arpo_entropy/verl/utils/reward_score/deep_research_0104updated_IGD.py" # 
 CUSTOM_REWARD_FUNCTION_NAME="compute_score"
 FORMAT_ONLY_STEPS=15                # Only use format reward for the first N steps, other rewards set to 0
 export FORMAT_ONLY_STEPS            # Export to environment variable for Python code
